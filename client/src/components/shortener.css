@@ -1,0 +1,30 @@
+.main {
+  min-height: 100vh;
+  margin: 0px;
+  min-width: 100vh;
+  background-color: #292930;
+}
+
+.shortner {
+  background: #292930;
+  display: flex;
+  min-height: 70vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.head {
+  background-color: #1f1e27;
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .main {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+}
